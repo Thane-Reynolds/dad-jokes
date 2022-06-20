@@ -1,5 +1,5 @@
 import ListItem from "./ListItem";
-import list from "../../../assets/curatedlist";
+import list from "../../assets/curatedlist.json";
 
 export default function CuratedList({ setCuratedTerm }) {
   function handleClick(term) {
